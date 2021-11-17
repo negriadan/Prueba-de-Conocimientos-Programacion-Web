@@ -1,0 +1,30 @@
+a.nav-link {
+    color:  dimgrey;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+li.nav-item{
+    border-bottom: 2px ;
+
+}
+a.nav-link.active:visited,
+li.nav-item:visited{
+    color: rgb(13,110,253 )!important; 
+    border-bottom:1px solid  rgb(13,110,253 )!important;
+}
+
+a.nav-link:hover ,li.nav-item:hover{
+    color: white ; 
+    border-bottom-color: grey;
+    background-color: rgb(13,110,253 );
+    
+}
+label{
+    color: gray;
+}
+label span{
+    color: red;
+    font-weight: bold;
+}
+
